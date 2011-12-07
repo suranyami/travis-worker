@@ -18,7 +18,7 @@ platform :jruby do
   gem 'jruby-openssl', '~> 0.7.4'
 end
 
-group :test do
+group :development, :test do
   gem 'rake',          '~> 0.9.2'
   gem 'mocha'
   gem 'rspec'
